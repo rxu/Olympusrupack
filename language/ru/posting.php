@@ -43,14 +43,14 @@ $lang = array_merge($lang, array(
 	'ALREADY_DELETED'			=> 'Это сообщение уже удалено.',
 	'ATTACH_DISK_FULL'			=> 'Недостаточно свободного места на диске для загрузки данного вложения.',
 	'ATTACH_QUOTA_REACHED'		=> 'Достигнут максимальный общий размер ваших вложений.',
-	'ATTACH_SIG'				=> 'Присоединить подпись (подпись можно изменять в личном разделе)',
+	'ATTACH_SIG'				=> 'Присоединить подпись (её можно изменять в личном разделе)',
 
 	'BBCODE_A_HELP'				=> 'Вставить вложение в текст сообщения: [attachment=]filename.ext[/attachment]',
 	'BBCODE_B_HELP'				=> 'Жирный текст: [b]текст[/b]',
 	'BBCODE_C_HELP'				=> 'Код: [code]code[/code]',
 	'BBCODE_D_HELP'				=> 'Флэш: [flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Размер шрифта: [size=85]маленький шрифт[/size]',
-	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>ВЫКЛЮЧЕН</em>',
+	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>ОТКЛЮЧЕН</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>ВКЛЮЧЁН</em>',
 	'BBCODE_I_HELP'				=> 'Наклонный текст: [i]текст[/i]',
 	'BBCODE_L_HELP'				=> 'Список: [list][*]текст[/list]',
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE'				=> 'Вы должны ввести текст сообщения',
 	'EMPTY_REMOTE_DATA'			=> 'Не удалось закачать файл, пожалуйста, попробуйте закачать его вручную.',
 
-	'FLASH_IS_OFF'				=> '[flash] <em>ВЫКЛЮЧЕН</em>',
+	'FLASH_IS_OFF'				=> '[flash] <em>ОТКЛЮЧЕН</em>',
 	'FLASH_IS_ON'				=> '[flash] <em>ВКЛЮЧЁН</em>',
 	'FLOOD_ERROR'				=> 'Вы не можете отправить следующее сообщение сразу после предыдущего. Пожалуйста, попробуйте чуть позже.',
 	'FONT_COLOR'				=> 'Цвет шрифта',
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_UPLOAD_ERROR'		=> 'Не удалось закачать вложение %s.',
 
-	'IMAGES_ARE_OFF'			=> '[img] <em>ВЫКЛЮЧЕН</em>',
+	'IMAGES_ARE_OFF'			=> '[img] <em>ОТКЛЮЧЕН</em>',
 	'IMAGES_ARE_ON'				=> '[img] <em>ВКЛЮЧЁН</em>',
 	'INVALID_FILENAME'			=> '%s является недопустимым именем файла.',
 
@@ -206,7 +206,7 @@ $lang = array_merge($lang, array(
 	'SAVE_DRAFT'				=> 'Сохранить черновик',
 	'SAVE_DRAFT_CONFIRM'		=> 'Пожалуйста, обратите внимание, что сохраняются только заголовок и текст сообщения, любые другие элементы будут удалены.<br />Вы хотите сохранить черновик сейчас?',
 	'SMILIES'					=> 'Смайлики',
-	'SMILIES_ARE_OFF'			=> 'Смайлики <em>ВЫКЛЮЧЕНЫ</em>',
+	'SMILIES_ARE_OFF'			=> 'Смайлики <em>ОТКЛЮЧЕНЫ</em>',
 	'SMILIES_ARE_ON'			=> 'Смайлики <em>ВКЛЮЧЕНЫ</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Срок для объявления/прилепленной темы',
 	'STICK_TOPIC_FOR'			=> 'Тема будет прилеплена',
@@ -238,7 +238,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_COMMENT'			=> 'Обновить комментарий',
 	'URL_INVALID'				=> 'Указанный вами адрес файла недопустим.',
 	'URL_NOT_FOUND'				=> 'Указанный файл не найден.',
-	'URL_IS_OFF'				=> '[url] <em>ВЫКЛЮЧЕН</em>',
+	'URL_IS_OFF'				=> '[url] <em>ОТКЛЮЧЕН</em>',
 	'URL_IS_ON'					=> '[url] <em>ВКЛЮЧЁН</em>',
 	'USER_CANNOT_BUMP'			=> 'Вы не можете поднимать темы в этом форуме.',
 	'USER_CANNOT_DELETE'		=> 'Вы не можете удалять сообщения в этом форуме.',
