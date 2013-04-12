@@ -155,7 +155,7 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Поздравляем',
 	'CONNECTION_FAILED'		=> 'Ошибка подключения.',
 	'CONNECTION_SUCCESS'	=> 'Подключение успешно установлено.',
-	'COOKIES_DELETED'		=> 'Все cookies, установленные форумами, успешно удалены.',
+	'COOKIES_DELETED'		=> 'Все cookies, установленные конференцией, успешно удалены.',
 	'CURRENT_TIME'			=> 'Текущее время: %s',
 
 	'DAY'					=> 'День',
