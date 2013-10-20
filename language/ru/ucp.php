@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Это список вложений в сообщениях, оставленных на этой конференции.',
 	'ATTACHMENTS_DELETED'			=> 'Вложения успешно удалены.',
 	'ATTACHMENT_DELETED'			=> 'Вложение успешно удалено.',
-	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Выбранные ключи входа для функции «Запомнить меня» учпешно удалены.',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Выбранные ключи входа для функции «Запомнить меня» уcпешно удалены.',
 	'AVATAR_CATEGORY'				=> 'Категория',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Граватар',
 	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Граватар - служба, которая позволяет использовать одну и ту же аватару на нескольких сайтах. Посетите сайт <a href="http://www.gravatar.com/">Граватар</a> для получения дополнительной информации.',
