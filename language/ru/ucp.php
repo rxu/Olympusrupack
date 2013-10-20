@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_CATEGORY'				=> 'Категория',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Граватар',
 	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Граватар - служба, которая позволяет использовать одну и ту же аватару на нескольких сайтах. Посетите сайт <a href="http://www.gravatar.com/">Граватар</a> для получения дополнительной информации.',
-	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Галарея аватар',
+	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Галерея аватар',
 	'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> 'Вы можете выбрать аватару из числа доступных в галерее на данной конференции.',
 	'AVATAR_DRIVER_REMOTE_TITLE'	=> 'Удалённая аватара',
 	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Ссылка на аватару, расположенную на другом сайте.',
