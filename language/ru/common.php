@@ -429,7 +429,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_APPROVED'		=> 'Ваша тема «%2$s» в форуме «%3$s» одобрена.',
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> 'Ваша тема «%1$s» отклонена по причине: «%2$s».',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Новая тема «%2$s» создана пользователем %1$s и требует одобрения.',
-	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип уведомления "%s" отсутствует в файловой системе.',
+	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип уведомления «%s» отсутствует в файловой системе.',
 	'NOTIFY_ADMIN'				=> 'Уведомите администратора конференции или вебмастера.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Уведомите администратора конференции или вебмастера: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Вам запрещён доступ к этому файлу.',
