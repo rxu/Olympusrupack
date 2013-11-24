@@ -1141,7 +1141,7 @@ $lang = array_merge($lang, array(
  		'America/Yakutat'		=> 'Америка/Yakutat',
  		'America/Yellowknife'	=> 'Америка/Yellowknife',
  
- 		'Antarctica/Casey'		=> 'Antarctica/Casey',
+ 		'Antarctica/Casey'		=> 'Антарктида/Casey',
  		'Antarctica/Davis'		=> 'Antarctica/Davis',
  		'Antarctica/DumontDUrville'	=> 'Antarctica/DumontDUrville',
  		'Antarctica/Macquarie'	=> 'Antarctica/Macquarie',
