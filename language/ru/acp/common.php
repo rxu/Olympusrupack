@@ -563,7 +563,7 @@ $lang = array_merge($lang, array(
 	'LOG_POST_RESTORED'			=> '<strong>Восстановлено сообщение</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Закрытие жалобы</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Удаление жалобы</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'			=> '<strong>Восстановлена тема «%1$s» written by</strong><br />» %2$s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>Восстановлена тема «%1$s» написанного автором</strong><br />» %2$s',
 	'LOG_SOFTDELETE_POST'		=> '<strong>Удалено сообщение «%1$s» автора</strong><br />» %2$s',
 	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Удалена тема «%1$s» автора</strong><br />» %2$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Перемещены разделённые сообщения</strong><br />» в %s',
@@ -666,6 +666,8 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_ADD'		=> '<strong>Добавлена пользовательская роль</strong><br />» %s',
 	'LOG_U_ROLE_EDIT'		=> '<strong>Изменена пользовательская роль</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Удалена пользовательская роль</strong><br />» %s',
+	
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Невозможно открыть %1$s для очистки, проверьте права доступа.</strong><br />Исключение: %2$s<br />Дополнительные сведения: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Активировано поле профиля</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Добавлено поле профиля</strong><br />» %s',
