@@ -314,6 +314,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Тип уведомления',
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'В теме, помещённой в закладки, появились новые сообщения',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Кто-то отправил запрос для присоединения в группу где Вы являетесь лидером'
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Сообщение или тема требуют одобрения',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Ваши сообщения/темы одобрены или отклонены модератором',
 	'NOTIFICATION_TYPE_PM'								=> 'Вам отправлено личное сообщение',
