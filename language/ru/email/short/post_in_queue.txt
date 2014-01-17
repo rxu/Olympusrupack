@@ -1,4 +1,4 @@
-Subject: Сообщение требует моберации — «{TOPIC_TITLE}»
+Subject: Сообщение требует модерации — «{TOPIC_TITLE}»
 
 Здравствуйте, {USERNAME}!
 
