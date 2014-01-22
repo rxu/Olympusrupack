@@ -420,6 +420,7 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_TOPIC'		=> 'Вы больше не подписаны на эту тему.',
 	'NOTIFICATIONS'				=> 'Уведомления',
 	'NOTIFICATION_BOOKMARK'				=> '%1$s ответил в теме «%2$s», находящейся у Вас в закладках.',
+	'NOTIFICATION_BOOKMARK_TRIMMED'		=> '%1$s и другие пользователи (%3$d) ответили в теме «%2$s», находящейся у Вас в закладках.',
 	'NOTIFICATION_GROUP_REQUEST'    => '%1$s подал запрос на вступление в группу %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'  => 'Ваш запрос на вступление в группу %1$s одобрен.',
 	'NOTIFICATION_PM'					=> '%1$s отправил Вам личное сообщение «%2$s».',
