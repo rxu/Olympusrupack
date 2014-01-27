@@ -65,7 +65,8 @@ $lang = array_merge($lang, array(
 
 	'VIEW_FORUM'			=> 'Просмотр форума',
 	'VIEW_FORUM_TOPICS'		=> array(
-		1	=> 'Тем: %d',
-		2	=> 'Тем: %d',
+		1	=> '%d тема',
+		2	=> '%d темы',
+		3	=> '%d тем',
 	),
 ));
