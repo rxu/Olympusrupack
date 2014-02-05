@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_OPTIONS'		=> 'Настройки',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Обновить расширения',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Отключите расширения</li>
+			<li>Отключите расширение</li>
 			<li>Удалите файлы расширения с сервера</li>
 			<li>Загрузите новые файлы</li>
 			<li>Включите расширение</li>
