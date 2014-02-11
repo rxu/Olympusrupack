@@ -4,7 +4,6 @@
 * acp_prune [Russian]
 *
 * @package language
-* @version $Id: prune.php 9933 2009-08-06 09:12:21Z marshalrusty $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
