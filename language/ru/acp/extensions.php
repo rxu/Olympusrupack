@@ -64,9 +64,9 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_SUCCESS'      => 'Расширение успешно выключено.',
 	'EXTENSION_ENABLE_SUCCESS'       => 'Расширение успешно включено.',
 
-	'EXTENSION_NAME'		=> 'Имя расширения',
-	'EXTENSION_ACTIONS'		=> 'Действия',
-	'EXTENSION_OPTIONS'		=> 'Настройки',
+	'EXTENSION_NAME'			=> 'Имя расширения',
+	'EXTENSION_ACTIONS'			=> 'Действия',
+	'EXTENSION_OPTIONS'			=> 'Настройки',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Обновление расширения',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Отключите расширение</li>

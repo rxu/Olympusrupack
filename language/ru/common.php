@@ -337,7 +337,6 @@ $lang = array_merge($lang, array(
 	'HOME'							=> 'На главную',
 
 	'ICQ'						=> 'ICQ',
-	'ICQ_STATUS'				=> 'Статус ICQ',
 	'IF'						=> 'Если',
 	'IMAGE'						=> 'Изображение',
 	'IMAGE_FILETYPE_INVALID'	=> 'Тип файла изображения %d не поддерживается для MIME-типа %s.',
@@ -412,14 +411,21 @@ $lang = array_merge($lang, array(
 	'MERGE_TOPIC'			=> 'Объединить тему',
 	'MESSAGE'				=> 'Сообщение',
 	'MESSAGES'				=> 'Сообщения',
+	'MESSAGES_COUNT'		=> array(
+		1	=> '%d сообщение',
+		2	=> '%d сообщения',
+		3	=> '%d сообщений',
+	),
 	'MESSAGE_BODY'			=> 'Текст сообщения',
 	'MINUTES'				=> 'минут',
 	'MODERATE'				=> 'Модерировать',
 	'MODERATOR'				=> 'Модератор',
 	'MODERATORS'			=> 'Модераторы',
+	'MODULE_NOT_ACCESS'		=> 'Модуль недоступен',
+	'MODULE_NOT_FIND'		=> 'Не найден модуль %s',
+	'MODULE_FILE_INCORRECT_CLASS'	=> 'Файл модуля %s не содержит необходимого класса [%s]',
 	'MONTH'					=> 'Месяц',
 	'MOVE'					=> 'Переместить',
-	'MSNM'					=> 'WLM',
 
 	'NA'						=> 'Нет',
 	'NEWEST_USER'				=> 'Новый пользователь: <strong>%s</strong>',
@@ -619,7 +625,8 @@ $lang = array_merge($lang, array(
 	'RETURN_FORUM'				=> '%sВернуться в форум%s',
 	'RETURN_PAGE'				=> '%sВернуться на предыдущую страницу%s',
 	'RETURN_TOPIC'				=> '%sВернуться в тему%s',
-	'RETURN_TO'					=> 'Вернуться в',
+	'RETURN_TO'					=> 'Вернуться в «%s»',
+	'RETURN_TO_INDEX'			=> 'Вернуться к списку форумов',
 	'FEED'						=> 'Канал',
 	'FEED_NEWS'					=> 'Новости',
  	'FEED_TOPICS_ACTIVE'		=> 'Активные темы',
@@ -705,28 +712,21 @@ $lang = array_merge($lang, array(
 
 	'TOO_LONG'			=> 'Введённое значение слишком длинное.',
 
-	'TOO_LONG_AIM'					=> 'Имя в AIM слишком длинное.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'Введённый код подтверждения слишком длинный.',
 	'TOO_LONG_DATEFORMAT'			=> 'Введённый формат даты слишком длинный.',
-	'TOO_LONG_ICQ'					=> 'Номер ICQ слишком длинный.',
 	'TOO_LONG_JABBER'				=> 'Имя учётной записи Jabber слишком длинное.',
-	'TOO_LONG_MSN'					=> 'Имя в WLM слишком длинное.',
 	'TOO_LONG_NEW_PASSWORD'			=> 'Введённый пароль слишком длинный.',
 	'TOO_LONG_PASSWORD_CONFIRM'		=> 'Подтверждение пароля слишком длинное.',
 	'TOO_LONG_USER_PASSWORD'		=> 'Пароль слишком длинный.',
 	'TOO_LONG_USERNAME'				=> 'Имя пользователя слишком длинное.',
 	'TOO_LONG_EMAIL'				=> 'Адрес email слишком длинный.',
-	'TOO_LONG_WEBSITE'				=> 'Адрес сайта слишком длинный.',
-	'TOO_LONG_YIM'					=> 'Имя в YIM слишком длинное.',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Вы выбрали слишком много вариантов ответа при голосовании.',
 
 	'TOO_SHORT'						=> 'Введённое значение слишком короткое.',
 
-	'TOO_SHORT_AIM'					=> 'Имя в AIM слишком короткое.',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'Введённый код подтверждения слишком короткий.',
 	'TOO_SHORT_DATEFORMAT'			=> 'Введённый формат даты слишком короткий.',
-	'TOO_SHORT_ICQ'					=> 'Номер ICQ слишком короткий.',
 	'TOO_SHORT_JABBER'				=> 'Имя учётной записи Jabber слишком короткое.',
 	'TOO_SHORT_MSN'					=> 'Имя в WLM слишком короткое.',
 	'TOO_SHORT_NEW_PASSWORD'		=> 'Введённый пароль слишком короткий.',
@@ -734,8 +734,6 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_USER_PASSWORD'		=> 'Пароль слишком короткий.',
 	'TOO_SHORT_USERNAME'			=> 'Имя пользователя слишком короткое.',
 	'TOO_SHORT_EMAIL'				=> 'Адрес email слишком короткий.',
-	'TOO_SHORT_WEBSITE'				=> 'Адрес сайта слишком короткий.',
-	'TOO_SHORT_YIM'					=> 'Имя в YIM слишком короткое.',
 
 	'TOO_SMALL'						=> 'Введённое значение слишком мало.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'Введённое значение настройки <strong>Максимальное разрешённое число получателей ЛС</strong> слишком мало.',
@@ -853,6 +851,7 @@ $lang = array_merge($lang, array(
 	'WEBSITE'			=> 'Сайт',
 	'WHOIS'				=> 'Информация об IP-адресе',
 	'WHO_IS_ONLINE'		=> 'Кто сейчас на конференции',
+	'WLM'				=> 'WLM',
 	'WRONG_PASSWORD'	=> 'Вы ввели неверный пароль.',
 
 	'WRONG_DATA_COLOUR'      => 'Введено неверное значение цвета.',
@@ -862,10 +861,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_WEBSITE'		=> 'Адрес сайта должен быть правильной ссылкой, включающей наименование протокола. Например, http://www.example.com/.',
 	'WROTE'						=> 'писал(а)',
 
+	'YAHOO'				=> 'Yahoo Messenger',
 	'YEAR'				=> 'Год',
 	'YEAR_MONTH_DAY'	=> '(ГГГГ-ММ-ДД)',
 	'YES'				=> 'Да',
-	'YIM'				=> 'YIM',
 	'YOU_LAST_VISIT'	=> 'Предыдущее посещение: %s',
 
 	'datetime'			=> array(

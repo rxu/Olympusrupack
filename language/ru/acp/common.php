@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAT_CUSTOMISE'			=> 'Расширения',
 	'ACP_CAT_DATABASE'			=> 'База данных',
-	'ACP_CAT_DOT_MODS'			=> 'Модули',
+	'ACP_CAT_DOT_MODS'			=> 'Расширения',
 	'ACP_CAT_FORUMS'			=> 'Форумы',
 	'ACP_CAT_GENERAL'			=> 'Общие',
 	'ACP_CAT_MAINTENANCE'		=> 'Обслуживание',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS'		=> 'Настройки почты',
 	'ACP_EXTENSION_GROUPS'		=> 'Группы расширений файлов',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Управление расширениями',
-	'ACP_EXTENSIONS'			=> 'Расширения',
+	'ACP_EXTENSIONS'			=> 'Управление расширениями',
 
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Локальные права доступа',
@@ -289,7 +289,6 @@ $lang = array_merge($lang, array(
 	'RESYNC'							=> 'Синхронизировать',
 	'RESYNC_FILES_STATS'				=> 'Синхронизировать статистику вложений',
 	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Пересчёт общего количества и размера вложений, прикрепленных к сообщениям в темах и личным сообщениям.',
-	'RETURN_TO'							=> 'Вернуться в…',
 
 	'SELECT_ANONYMOUS'		=> 'Выбрать учётную запись гостя',
 	'SELECT_OPTION'			=> 'Выберите действие',

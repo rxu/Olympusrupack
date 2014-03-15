@@ -39,6 +39,7 @@ $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Дополнительное поле успешно добавлено в профиль.',
 	'ALPHA_ONLY'			=> 'Только буквенно-цифровые',
 	'ALPHA_SPACERS'			=> 'Только буквенно-цифровые и разделители',
+	'ALPHA_UNDERSCORE'		=> 'Только буквенно-цифровые и подчёркивание',
 	'ALWAYS_TODAY'			=> 'Всегда текущая дата',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Введите возможные варианты',
@@ -82,6 +83,8 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'Всё в порядке',
 
 	'FIELD_BOOL'				=> 'Логическое поле (Да или Нет)',
+	'FIELD_CONTACT_DESC'		=> 'Описание контакта',
+	'FIELD_CONTACT_URL'			=> 'Ссылка на контакт',
 	'FIELD_DATE'				=> 'Дата',
 	'FIELD_DESCRIPTION'			=> 'Описание поля',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Подсказка к полю, показываемая пользователю',
@@ -90,12 +93,15 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Поле с таким идентификатором уже существует. Введите другой идентификатор.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Название поля для его обозначения в базе данных и файлах шаблонов.',
 	'FIELD_INT'					=> 'Число',
+	'FIELD_IS_CONTACT'			=> 'Отображать поле как контактную информацию',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Поле контакта отображается в разделе контактов профиля пользователя, а также в минипрофиле.',
 	'FIELD_LENGTH'				=> 'Размер поля ввода',
 	'FIELD_NOT_FOUND'			=> 'Поле не найдено.',
 	'FIELD_STRING'				=> 'Однострочное текстовое поле',
 	'FIELD_TEXT'				=> 'Многострочное текстовое поле',
 	'FIELD_TYPE'				=> 'Тип поля',
 	'FIELD_TYPE_EXPLAIN'		=> 'Вы не сможете изменять тип поля.',
+	'FIELD_URL'					=> 'URL (ссылка)',
 	'FIELD_VALIDATION'			=> 'Допустимые символы',
 	'FIRST_OPTION'				=> 'Первый вариант',
 
