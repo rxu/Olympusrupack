@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 
 	<p>В списке выбора типа базы данных будут отображаться лишь те, которые поддерживает ваш сервер.',
 
-	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
+	'ACP_LINK'	=> 'Перейти в <a href="%1$s">Администраторский раздел</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB уже установлен.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ещё не установлен.',
@@ -306,7 +306,7 @@ $lang = array_merge($lang, array(
 	'TASK_POPULATE_MIGRATIONS'	=> 'Выполнение миграций',
 
 	// Installer general progress messages
-	'INSTALLER_FINISHED'	=> 'программа установки успешно завершила работу',
+	'INSTALLER_FINISHED'	=> 'Программа установки успешно завершила работу',
 ));
 
 // Installer's general messages
