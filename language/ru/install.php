@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Common installer pages
 $lang = array_merge($lang, array(
-	'INSTALL_PANEL'	=> 'Панель установки',
+	'INSTALL_PANEL'	=> 'Раздел установки',
 	'SELECT_LANG'				=> 'Выберите язык',
 
 	'STAGE_INSTALL'	=> 'Установка phpBB',
@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 
 	<p>В списке выбора типа базы данных будут отображаться лишь те, которые поддерживает ваш сервер.',
 
-	'ACP_LINK'	=> 'Перейти в <a href="%1$s">Администраторский раздел</a>',
+	'ACP_LINK'	=> 'Добро пожаловать! Заходите в <a href="%1$s">Администраторский раздел</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB уже установлен.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ещё не установлен.',
