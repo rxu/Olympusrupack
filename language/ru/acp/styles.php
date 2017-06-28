@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'Стиль «%s» не может быть удалён, так как является родительским для других стилей.',
 	'STYLE_UNINSTALLED'			=> 'Стиль «%s» успешно удалён.',
 	'STYLE_USED_BY'				=> 'Используют (с ботами)',
+	'STYLE_VERSION'				=> 'Версия стиля',
 
 	'UNINSTALL_DEFAULT'		=> 'Нельзя удалить стиль по умолчанию.',
 

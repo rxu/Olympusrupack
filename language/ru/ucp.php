@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Загружаемая аватара',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Загрузите собственную аватару.',
 	'AVATAR_EXPLAIN'				=> 'Допустимые параметры: ширина не более %1$s, высота не более %2$s, размер файла не более %3$.2f КБ.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Максимальные размеры: ширина не более %1$s, высота не более %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Аватары в настоящее время отключены.',
 	'AVATAR_GALLERY'				=> 'Галерея аватар',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Невозможно закачать аватару в %s.',

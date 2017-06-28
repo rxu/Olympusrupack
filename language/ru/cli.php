@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Отключает заданное расширение.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Включает заданное расширение.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Находит миграции, не имеющие зависимостей.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Восстановление древовидной структуры форумов и модулей.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Получает значение параметра конфигурации',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Увеличивает значение числового параметра конфигурации',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Выводит список всех расширений из базы данных и файловой системы.',
@@ -64,7 +65,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Пересчитывает поле user_email_hash в таблице пользователей.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Устанавливает значение параметра конфигурации в случае, если старое значение совпадает с текущим',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Устанавливает значение параметра конфигурации',
-
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Обновить устаревшие хэши паролей с использованием шифрования bcrypt.',
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Не удалось отключить расширение %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Успешно отключено расширение %s',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Не удалось включить расширение %s',
@@ -76,8 +77,10 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Доступные',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Отключённые',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Включённые',
-
+  
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Успешно восстановлена древовидеая структура форумов и модулей.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Успешно пересчитаны все значения хэшей email.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Успешно обновлены устаревшие хэши паролей с использованием шифрования bcrypt.',
 ));
 
 // Additional help for commands.
