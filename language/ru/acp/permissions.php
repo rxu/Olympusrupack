@@ -172,7 +172,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Стандартный доступ с опросами',
 	'ROLE_FORUM_READONLY'		=> 'Доступ только для чтения',
 	'ROLE_FORUM_STANDARD'		=> 'Стандартный доступ',
-	'ROLE_FORUM_NEW_MEMBER'		=> 'Доступ для новых зарегистрированных пользователей',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Доступ для новых пользователей',
 	'ROLE_MOD_FULL'				=> 'Супермодератор',
 	'ROLE_MOD_QUEUE'			=> 'Премодератор',
 	'ROLE_MOD_SIMPLE'			=> 'Простой модератор',
@@ -182,7 +182,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Без аватары',
 	'ROLE_USER_NOPM'			=> 'Без личных сообщений',
 	'ROLE_USER_STANDARD'		=> 'Стандартные возможности',
-	'ROLE_USER_NEW_MEMBER'		=> 'Возможности новых зарегистрированных пользователей',
+	'ROLE_USER_NEW_MEMBER'		=> 'Возможности новых пользователей',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Имеет доступ к управлению форумами и к настройкам прав доступа к форумам.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Имеет доступ ко всем администраторским возможностям конференции.<br />Не рекомендуется.',
