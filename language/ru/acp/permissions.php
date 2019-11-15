@@ -54,7 +54,7 @@ $lang = array_merge($lang, [
 
 		<br />
 
-		<p>Для получения более подробной информации по настройке и управлению правами доступа на вашей конференции phpBB3 смотрите <a href="httpы://www.phpbbguru.net/documentation/admin/permissions/">Раздел 3.7 нашего руководства</a>.</p>
+		<p>Для получения более подробной информации по настройке и управлению правами доступа на вашей конференции phpBB3 смотрите <a href="https://www.phpbbguru.net/documentation/admin/permissions/">Раздел 3.7 нашего руководства</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Никогда',
