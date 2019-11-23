@@ -76,7 +76,6 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Наибольшее значение ID (идентификатора) записи для обработки',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Приблизительное число обрабатываемых записей в единицу времени',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Продолжить репарсинг с момента последней остановки',
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Пересчитывает поле user_email_hash в таблице пользователей.',
 
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Установить значение параметра конфигурации в случае, если старое значение совпадает с текущим',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Установить значение параметра конфигурации',
@@ -128,7 +127,6 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSIONS_ENABLED'			=> 'Включённые',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Успешно восстановлена древовидеая структура форумов и модулей.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Успешно пересчитаны все значения хэшей email.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Успешно обновлены устаревшие хэши паролей с использованием шифрования bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Имя миграции, включая пространство имён (используйте прямой слэш вместо обратного во избежание проблем).',
