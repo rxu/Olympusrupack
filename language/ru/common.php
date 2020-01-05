@@ -284,10 +284,10 @@ $lang = array_merge($lang, [
 	'FILESYSTEM_CANNOT_CREATE_SYMLINK'			=> 'Не удалось создать символическую ссылку',
 	'FILESYSTEM_CANNOT_CREATE_DIRECTORY'		=> 'Не удалось создать папку',
 	'FILESYSTEM_CANNOT_DELETE_FILES'			=> 'Не удалось удалить файлы из системы',
-	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Не удалось создать файл',
+	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Не удалось выгрузить данные в файл',
 	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Не удалось скопировать папку',
 	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Не удалось переименовать файл в системе',
-	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Не удалось определить существование файла',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Не удалось создать файл или изменить дату его создания',
 
 	'FTP_FSOCK_HOST'				=> 'FTP-сервер',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'FTP-сервер для соединения с сайтом.',

@@ -105,7 +105,7 @@ $lang = array_merge($lang, [
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Версия PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'Для работы phpBB необходим PHP версии 7.1.0 или выше.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'Для работы phpBB необходим PHP версии 7.1.3 или выше.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Функция PHP getimagesize() недоступна',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Для правильной работы phpBB должна быть доступна функция getimagesize.',
 	'PCRE_UTF_SUPPORT'					=> 'Поддержка UTF-8 в PCRE',
@@ -370,7 +370,7 @@ $lang = array_merge($lang, [
 			<li>Следовать инструкциям по обновлению базы данных до его полного завершения.</li>
 			<li>используя FTP или SSH, удалить папку <code class="inline">/install</code> из корневой папки конференции на сервере.<br><br></li>
 		</ol>
-		
+
 		<p>Теперь конференция обновлена до последней версии, все пользователи и сообщения сохранены. Далее необходимо:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Обновить языковой пакет</li>
@@ -564,7 +564,7 @@ $lang = array_merge($lang, [
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Конвертирование завершено',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Вы успешно сконвертировали вашу конференцию в формат phpBB 3.3. Вы можете <a href="../">войти на конференцию</a>. Убедитесь, что все настройки успешно перенесены, прежде чем запустите конференцию, удалив папку install. Помните, что вспомогательную информацию по использованию phpBB можно получить в интернете, изучив <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">документацию</a>, а также на <a href="https://www.phpbb.com/phpBB/viewforum.php?f=466">форуме поддержки phpBB Group</a> и форумах официальной русской поддержки <a href="http://www.phpbbguru.net">phpBB Guru</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Вы успешно сконвертировали вашу конференцию в формат phpBB 3.3. Вы можете <a href="../">войти на конференцию</a>. Убедитесь, что все настройки успешно перенесены, прежде чем запустите конференцию, удалив папку install. Помните, что вспомогательную информацию по использованию phpBB можно получить в интернете, изучив <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">документацию</a>, а также на <a href="https://www.phpbb.com/community/viewforum.php?f=661">форуме поддержки phpBB Group</a> и форумах официальной русской поддержки <a href="https://www.phpbbguru.net/community/">phpBB Guru</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'На старой конференции включена загрузка вложений по FTP. Отключите эту функцию и убедитесь в правильности указанной папки для загрузки, затем скопируйте все файлы вложений в эту новую папку, доступную через интернет. После этого перезапустите конвертер.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Отсутствует доступная информация о конфигурации для конвертирования.',
