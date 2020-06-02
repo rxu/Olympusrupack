@@ -176,6 +176,7 @@ $lang = array_merge($lang, [
 	),
 	'COLLAPSE_VIEW'			=> 'Свернуть',
 	'CLOSE_WINDOW'			=> 'Закрыть окно',
+	'CODE'					=> 'Код',
 	'COLOUR_SWATCH'			=> 'Палитра',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -213,6 +214,7 @@ $lang = array_merge($lang, [
 	'DISPLAY_MESSAGES'		=> 'Показать сообщения за',
 	'DISPLAY_POSTS'			=> 'Показать сообщения за',
 	'DISPLAY_TOPICS'		=> 'Показать темы за',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Введённый домен email не имеет корректной почтовой записи в DNS (MX record).',
 	'DOWNLOADED'			=> 'Скачиваний:',
 	'DOWNLOADING_FILE'		=> 'Скачивание файла',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -648,6 +650,7 @@ $lang = array_merge($lang, [
 	'PROFILE'				=> 'Личный раздел',
 
 	'QUICK_LINKS'			=> 'Ссылки',
+	'QUOTE'					=> 'Цитата',
 
 	'RANK'						=> 'Звание',
 	'READING_FORUM'				=> 'Просмотр форума «%s»',

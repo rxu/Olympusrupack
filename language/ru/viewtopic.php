@@ -49,8 +49,6 @@ $lang = array_merge($lang, [
 	'BUMPED_BY'				=> 'Тема поднималась пользователем %1$s %2$s.',
 	'BUMP_TOPIC'			=> 'Поднять тему',
 
-	'CODE'					=> 'Код',
-
 	'DELETE_TOPIC'			=> 'Удалить тему',
 	'DELETED_INFORMATION'	=> 'Удалено %2$s пользователем %1$s',
 	'DISAPPROVE'					=> 'Отклонить',
@@ -100,7 +98,6 @@ $lang = array_merge($lang, [
 
 	'QUICK_MOD'				=> 'Быстрые действия',
 	'QUICKREPLY'			=> 'Быстрый ответ',
-	'QUOTE'					=> 'Цитата',
 
 	'REPLY_TO_TOPIC'		=> 'Ответить на тему',
 	'RESTORE'				=> 'Восстановить',
