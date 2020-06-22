@@ -37,8 +37,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'APPROVE'								=> 'Одобрить',
-	'ATTACHMENT'						=> 'Вложение',
+	'APPROVE'				=> 'Одобрить',
+	'ATTACHMENT'			=> 'Вложение',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Функция вложений отключена.',
 
 	'BOOKMARK_ADDED'		=> 'Тема успешно добавлена в закладки.',
@@ -49,11 +49,9 @@ $lang = array_merge($lang, [
 	'BUMPED_BY'				=> 'Тема поднималась пользователем %1$s %2$s.',
 	'BUMP_TOPIC'			=> 'Поднять тему',
 
-	'CODE'					=> 'Код',
-
 	'DELETE_TOPIC'			=> 'Удалить тему',
 	'DELETED_INFORMATION'	=> 'Удалено %2$s пользователем %1$s',
-	'DISAPPROVE'					=> 'Отклонить',
+	'DISAPPROVE'			=> 'Отклонить',
 	'DOWNLOAD_NOTICE'		=> 'У вас нет необходимых прав для просмотра вложений в этом сообщении.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
@@ -100,7 +98,6 @@ $lang = array_merge($lang, [
 
 	'QUICK_MOD'				=> 'Быстрые действия',
 	'QUICKREPLY'			=> 'Быстрый ответ',
-	'QUOTE'					=> 'Цитата',
 
 	'REPLY_TO_TOPIC'		=> 'Ответить на тему',
 	'RESTORE'				=> 'Восстановить',

@@ -93,7 +93,6 @@ $lang = array_merge($lang, [
 	'FIELD_DESCRIPTION'			=> 'Описание поля',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Подсказка к полю, показываемая пользователю',
 	'FIELD_DROPDOWN'			=> 'Раскрывающийся список',
-	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Идентификатор поля',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Поле с таким идентификатором уже существует. Введите другой идентификатор.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Название поля для его обозначения в базе данных и файлах шаблонов.',

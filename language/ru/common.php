@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'TRANSLATION_INFO'	=> '<a href=\'http://www.phpbbguru.net/\'>Русская поддержка phpBB</a>',
+	'TRANSLATION_INFO'	=> '<a href="https://www.phpbbguru.net">Русская поддержка phpBB</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d.m.Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -177,6 +177,7 @@ $lang = array_merge($lang, [
 	),
 	'COLLAPSE_VIEW'			=> 'Свернуть',
 	'CLOSE_WINDOW'			=> 'Закрыть окно',
+	'CODE'					=> 'Код',
 	'COLOUR_SWATCH'			=> 'Палитра',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -214,6 +215,7 @@ $lang = array_merge($lang, [
 	'DISPLAY_MESSAGES'		=> 'Показать сообщения за',
 	'DISPLAY_POSTS'			=> 'Показать сообщения за',
 	'DISPLAY_TOPICS'		=> 'Показать темы за',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Введённый домен email не имеет корректной почтовой записи в DNS (MX record).',
 	'DOWNLOADED'			=> 'Скачиваний:',
 	'DOWNLOADING_FILE'		=> 'Скачивание файла',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -319,7 +321,6 @@ $lang = array_merge($lang, [
 	'GB'						=> 'ГБ',
 	'GIB'						=> 'ГБ',
 	'GO'						=> 'Перейти',
-	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Перейти к первому сообщению',
 	'GOTO_LAST_POST'			=> 'Перейти к последнему сообщению',
 	'GOTO_PAGE'					=> 'На страницу',
@@ -650,6 +651,9 @@ $lang = array_merge($lang, [
 	'POST_UNAPPROVED'		=> 'Сообщение одобрено.',
 	'POST_UNAPPROVED_EXPLAIN'	=> 'Данное сообщение не будет показано другим пользователям до его одобрения модератором.',
 	'POWERED_BY'			=> 'Создано на основе %s',
+
+	'QUOTE'					=> 'Цитата',
+
 	'PREVIEW'				=> 'Предпросмотр',
 	'PREVIOUS'				=> 'Пред.',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Назад',
@@ -833,6 +837,7 @@ $lang = array_merge($lang, [
 	'TOPIC_UNAPPROVED_FORUM'	=> array(
 		1	=> 'Имеется тема, ожидающая одобрения',
 		2	=> 'Имеются темы, ожидающие одобрения',
+		3	=> 'Имеются темы, ожидающие одобрения',
 	),
 	'TOPIC_DELETED'		=> 'Данная тема была удалена.',
 	'TOTAL_ATTACHMENTS'	=> 'Вложения',

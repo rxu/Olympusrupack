@@ -91,6 +91,7 @@ $lang = array_merge($lang, [
 	'RESULT_DAYS'			=> 'Искать сообщения за',
 	'RESULT_SORT'			=> 'Поле сортировки',
 	'RETURN_FIRST'			=> 'Показывать первые',
+	'RETURN_FIRST_EXPLAIN'	=> 'Введите 0 для вывода полного текста сообщений.',
 	'GO_TO_SEARCH_ADV'		=> 'Перейти к расширенному поиску',
 
 	'SEARCHED_FOR'				=> 'Поисковый запрос',
