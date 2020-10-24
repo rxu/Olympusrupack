@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 	'USER_LANG'			=> 'ru',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	// Rule #7 Families: Slavic (Bosnian, Croatian, Serbian, Russian, Ukrainian)
 	// 0 can be handled special case. If you add a key 0 to your array, that will be used 
@@ -116,6 +116,8 @@ $lang = array_merge($lang, [
 	'AVATAR_NOT_UPLOADED'			=> 'Загрузка аватары не удалась.',
 	'AVATAR_NO_TEMP_DIR'			=> 'Временная папка не найдена или недоступна для записи.',
 	'AVATAR_NO_SIZE'				=> 'Не удалось определить размеры указанной аватары. Пожалуйста, введите их вручную.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'Путь к папке для загрузки аватар не существует, либо запись в указанную папку не разрешена.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'Прямая загрузка аватар разрешена, но путь к папкке для загрузки аватар не задан.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Указанный файл загружен только частично',
 	'AVATAR_PHP_SIZE_NA'			=> 'Слишком большой размер файла аватары.<br />Не удалось определить максимальный размер, установленный в php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Слишком большой размер файла аватары. Максимально допустимый размер — %1$d %2$s.<br />Примечание: это ограничение установлено в файле php.ini и не может быть превышено.',
@@ -514,6 +516,7 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_REFERENCE'			=> '«%1$s»',
 	'NOTIFICATION_REASON'				=> '<em>Причина:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '<strong>Жалоба на личное сообщение</strong> от пользователя %1$s:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>Жалоба на личное сообщение закрыта</strong> by %1$s:',
 	'NOTIFICATION_REPORT_POST'			=> '<strong>Жалоба на сообщение</strong> от пользователя %1$s:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Жалоба закрыта</strong> пользователем %1$s по причине:',
 	'NOTIFICATION_TOPIC'				=> '<strong>Новая тема</strong> создана пользователем %1$s:',
