@@ -1,0 +1,51 @@
+name: Tests
+
+env:
+    PHPBB_LANGUAGE: 'ru'              # CHANGE the language iso to validate HERE
+    PHPBB_VERSION: '3.3'              # CHANGE the main version of phpBB HERE - 3.3 or master
+#    PHPBB_TAG: '3.3.x'               # CHANGE the tag to checkout for validation HERE
+    PHPBB_TAG: 'release-3.3.3-RC1'    # CHANGE the tag to checkout for validation HERE
+
+on: [push, pull_request]
+
+jobs:
+    basic-checks:
+        runs-on: ubuntu-18.04
+        strategy:
+            matrix:
+                include:
+                    - php: '7.1'
+
+        name: PHP ${{ matrix.php }}
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+              with:
+                  fetch-depth: 100
+
+            - name: Setup PHP
+              uses: shivammathur/setup-php@v2
+              with:
+                  php-version: ${{ matrix.php }}
+                  coverage: none
+
+            - name: Setup environment for testing
+              run: |
+                  mkdir -p --verbose $PHPBB_VERSION/$PHPBB_LANGUAGE
+                  mkdir -p --verbose $PHPBB_VERSION/en/language
+                  mkdir -p --verbose $PHPBB_VERSION/en/styles/prosilver/theme
+                  mv -v language $PHPBB_VERSION/$PHPBB_LANGUAGE
+                  mv -v styles $PHPBB_VERSION/$PHPBB_LANGUAGE
+                  git clone --branch $PHPBB_TAG "https://github.com/phpbb/phpbb.git"
+                  mv -v phpbb/phpBB/language/en/ $PHPBB_VERSION/en/language/
+                  mv -v phpbb/phpBB/styles/prosilver/theme/en/ $PHPBB_VERSION/en/styles/prosilver/theme/en/
+                  curl -sS "https://getcomposer.org/installer" | php
+
+            - name: Install dependensies
+              run: |
+                  composer install --no-interaction --prefer-source
+
+            - name: Run language pack prevalidator tests
+              run: |
+                  php vendor/bin/translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
