@@ -71,4 +71,5 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Порог при жалобе',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Пороги',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 возвращает оценку (<samp>1.0</samp> — наиболее вероятно вызывающий доверие пользователь, <samp>0.0</samp> — наиболее вероятно бот). Здесь можно настроить минимальную оценку (порог) для каждого случая использования reCAPTCHA v3.',
- ]);
+ 	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'Для корректной работы reCAPTCHA v3 обязательно наличие информации об используемом методе для проверки запроса.',
+]);

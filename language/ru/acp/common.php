@@ -371,9 +371,11 @@ $lang = array_merge($lang, [
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Преобразование кодировок настроено неверно',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> 'Параметр <var>mbstring.encoding_translation</var> должен быть равен 0. Вы можете проверить текущее значение на странице <samp>Сведения о PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Кодировка входящего потока HTTP настроена неверно',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Параметр <var>mbstring.http_input</var> должен быть равен <samp>pass</samp>. Вы можете проверить текущее значение на странице <samp>Сведения о PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Параметр <var>mbstring.http_input</var> должен быть пустым. Вы можете проверить текущее значение на странице <samp>Сведения о PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Кодировка исходящего потока HTTP настроена неверно',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Параметр <var>mbstring.http_output</var> должен быть равен <samp>pass</samp>. Вы можете проверить текущее значение на странице <samp>Сведения о PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Параметр <var>mbstring.http_output</var> должен быть пустым. Вы можете проверить текущее значение на странице <samp>Сведения о PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'Кодировка символов по умолчанию настроена неверно',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> 'Параметр <var>default_charset</var> должен быть равен <samp>UTF-8</samp>. Вы можете проверить текущее значение на странице <samp>Сведения о PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'Вложений в день',
 	'FORUM_STATS'		=> 'Статистика конференции',
