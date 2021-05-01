@@ -42,10 +42,11 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
-	'RECAPTCHA_INCORRECT'			=> 'Приведено неверное решение',
-	'RECAPTCHA_NOSCRIPT'			=> 'Включите JavaScript в браузере, чтобы увидеть задание против спам-ботов.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Для использования reCaptcha необходимо создать учётную запись на сайте <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_INVISIBLE'			=> 'Данный вид CAPTCHA является невидимым. Чтобы удостовериться в его работоспособности, в правом нижнем углу данной страницы должен отобразиться маленький значок.',
+	'RECAPTCHA_INCORRECT'				=> 'Приведено неверное решение',
+	'RECAPTCHA_NOSCRIPT'				=> 'Включите JavaScript в браузере, чтобы увидеть задание против спам-ботов.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'Для использования reCaptcha необходимо создать учётную запись на сайте <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'				=> 'Данный вид CAPTCHA является невидимым. Чтобы удостовериться в его работоспособности, в правом нижнем углу данной страницы должен отобразиться маленький значок.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Вы превысили максимально допустимое количество попыток входа.<br>Теперь, в дополнение к имени пользователя и паролю, при аутентификации будет использована невидимая reCAPTCHA v3.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Ключ сайта (Site key)',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Ключ reCaptcha вашего сайта. Ключи можно получить на сайте <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Используйте версию reCAPTCHA v2 &gt; Invisible reCAPTCHA.',

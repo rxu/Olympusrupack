@@ -101,6 +101,7 @@ $lang = array_merge($lang, [
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Неверная запись в базу данных.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Для обработчика сервиса oAuth предоставлен неверный тип сервиса.',
 	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Произошла ошибка при обработке запроса OAuth.',
+	'AUTH_PROVIDER_OAUTH_RETURN_ERROR'						=> 'Данный внешний сервис аутентификации вернул неверный ответ, поэтому запрос не может быть обработан.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'Сервис OAuth не создан',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',

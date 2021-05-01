@@ -1,4 +1,4 @@
-Subject: Жалоба на личное сообщение — «{TOPIC_TITLE}»
+Subject: Жалоба на личное сообщение — «{SUBJECT}»
 
 Здравствуйте, {USERNAME}!
 

@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSIONS_DISABLED'			=> 'Отключённые',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Включённые',
 
-	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Успешно восстановлена древовидеая структура форумов и модулей.',
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Успешно восстановлена древовидная структура форумов и модулей.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Успешно обновлены устаревшие хэши паролей с использованием шифрования bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Имя миграции, включая пространство имён (используйте прямой слэш вместо обратного во избежание проблем).',
