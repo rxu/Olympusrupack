@@ -70,7 +70,6 @@ $lang = array_merge($lang, [
 	'START_RESTORE'			=> 'Начать восстановление',
 	'STORE_AND_DOWNLOAD'	=> 'Сохранить на сервере и скачать',
 	'STORE_LOCAL'			=> 'Сохранить на сервере',
-	'STRUCTURE_ONLY'		=> 'Только структура',
 
 	'TABLE_SELECT'		=> 'Выбор таблиц',
 	'TABLE_SELECT_ERROR'=> 'Необходимо выбрать хотя бы одну таблицу.',
