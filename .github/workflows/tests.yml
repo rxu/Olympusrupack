@@ -4,8 +4,8 @@ env:
     PHPBB_LANGUAGE: 'ru'              # CHANGE the language iso to validate HERE
     PHPBB_VERSION: '3.3'              # CHANGE the main version of phpBB HERE - 3.3 or master
 #    PHPBB_TAG: '3.3.x'               # CHANGE the tag to checkout for validation HERE
-    PHPBB_TAG: 'prep-release-3.3.6'   # CHANGE the tag to checkout for validation HERE
-#    PHPBB_TAG: 'release-3.3.3-RC1'    # CHANGE the tag to checkout for validation HERE
+#    PHPBB_TAG: 'prep-release-3.3.6'   # CHANGE the tag to checkout for validation HERE
+    PHPBB_TAG: 'release-3.3.8-RC1'    # CHANGE the tag to checkout for validation HERE
 
 on: [push, pull_request]
 
