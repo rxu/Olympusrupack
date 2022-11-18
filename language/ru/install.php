@@ -139,7 +139,7 @@ $lang = array_merge($lang, [
 	//
 	// Admin data
 	//
-	'STAGE_ADMINISTRATOR'	=> 'Администратрирование',
+	'STAGE_ADMINISTRATOR'	=> 'Администрирование',
 
 	// Form labels
 	'ADMIN_CONFIG'				=> 'Настройки администратора',
@@ -475,7 +475,7 @@ $lang = array_merge($lang, [
 	'UPDATE_UPDATING_FILES'	=> 'Обновление файлов',
 
 	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'Не удалось обновить файл «%1$s». Будет использован файл «%2$s».',
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'Не удалось обновить файлы. Возможность использования старыхз файлов отсутствует.',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'Не удалось обновить файлы. Возможность использования старых файлов отсутствует.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Продолжить процесс обновления',
 	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Повторно проверить файлы',

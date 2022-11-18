@@ -64,7 +64,7 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_METHOD_POST'			=> 'POST',
 	'RECAPTCHA_V3_METHOD_SOCKET'		=> 'Socket',
 
-	'RECAPTCHA_V3_THRESHOLD_DEFAULT'			=> 'Порог по умоланию',
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT'			=> 'Порог по умолчанию',
 	'RECAPTCHA_V3_THRESHOLD_DEFAULT_EXPLAIN'	=> 'Порог по умолчанию используется, когда другие пороги неприменимы.',
 	'RECAPTCHA_V3_THRESHOLD_LOGIN'				=> 'Порог при входе',
 	'RECAPTCHA_V3_THRESHOLD_POST'				=> 'Порог при отправке сообщений',

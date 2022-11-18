@@ -61,7 +61,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Найти миграции, не имеющие зависимостей.',
 	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Восстановление древовидной структуры форумов и модулей.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Получить значение параметра конфигурации',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Увеличить значение числового параметра конфиругации',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Увеличить значение числового параметра конфигурации',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Вывести список всех расширений из базы данных и файловой системы.',
 
 	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Наименование окружения.',
@@ -88,7 +88,7 @@ $lang = array_merge($lang, [
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Проверка обновлений.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Имя расширения для проверки (с ключом all будут проверены все расширения)',
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Проверка обновлений с ипользованием кэша.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Проверка обновлений с использованием кэша.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Выбор типа проверки обновлений (только на стабильные версии или включая нестабильные).',
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Обновить устаревшие хэши паролей с использованием шифрования bcrypt.',
