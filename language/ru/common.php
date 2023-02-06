@@ -712,6 +712,10 @@ $lang = array_merge($lang, [
 	'RETURN_TOPIC'				=> '%sВернуться в тему%s',
 	'RETURN_TO'					=> 'Вернуться в «%s»',
 	'RETURN_TO_INDEX'			=> 'Вернуться к списку форумов',
+
+	'ROUTE_NOT_FOUND'				=> 'Запрошенный путь «%s» не найден.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Неверные или отсутствующие параметры пути «%s».',
+
 	'FEED'						=> 'Канал',
 	'FEED_NEWS'					=> 'Новости',
  	'FEED_TOPICS_ACTIVE'		=> 'Активные темы',

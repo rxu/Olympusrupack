@@ -738,6 +738,10 @@ $lang = array_merge($lang, [
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Созданы поисковые индексы для</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Удалены поисковые индексы для</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Ошибка Sphinx</strong><br />В» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus не допускает запросы с использованием DNS серверов, работающих по принципу open resolver. Проверка была отключена. Дополнительная информация: https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Превышен порог количества запросов к Spamhaus. Проверка была отключена. Дополнительная информация: https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+
 	'LOG_STYLE_ADD'				=> '<strong>Добавлен стиль</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Удалён стиль</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Изменён стиль</strong><br />» %s',
