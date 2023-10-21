@@ -44,7 +44,7 @@ $lang = array_merge($lang, [
 	'BOARD_STYLE'					=> 'Стиль конференции',
 	'CUSTOM_DATEFORMAT'				=> 'Другой…',
 	'DEFAULT_DATE_FORMAT'			=> 'Формат даты',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Синтаксис идентичен функции <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code> языка PHP.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Синтаксис соответствует используемому в <a href="https://www.php.net/manual/datetime.format.php">функциях форматирования дат</a> языка PHP.',
 	'DEFAULT_LANGUAGE'				=> 'Язык конференции по умолчанию',
 	'DEFAULT_STYLE'					=> 'Стиль конференции по умолчанию',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'Стиль по умолчанию для новых пользователей.',

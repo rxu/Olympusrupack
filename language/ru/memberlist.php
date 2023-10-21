@@ -92,11 +92,11 @@ $lang = array_merge($lang, [
 
 	'LAST_ACTIVE'				=> 'Последнее посещение',
 	'LESS_THAN'					=> 'меньше',
-	'LIST_USERS'				=> array(
+	'LIST_USERS'				=> [
 		1	=> '%d пользователь',
 		2	=> '%d пользователя',
 		3	=> '%d пользователей',
-	),
+	],
 	'LOGIN_EXPLAIN_TEAM'		=> 'Для просмотра списка нашей команды вы должны быть авторизованы.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Для просмотра списка пользователей вы должны быть авторизованы.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Для поиска пользователей вы должны быть авторизованы.',
@@ -137,12 +137,12 @@ $lang = array_merge($lang, [
 	'USER_ADMIN'			=> 'Администрировать',
 	'USER_BAN'				=> 'Блокировка',
 	'USER_FORUM'			=> 'Статистика пользователя',
-	'USER_LAST_REMINDED'	=> array(
+	'USER_LAST_REMINDED'	=> [
 		0		=> 'Нет напоминаний, отправленных в это время',
 		1		=> 'Отправлено %1$d напоминание<br />» %2$s',
 		2		=> 'Отправлено %1$d напоминания<br />» %2$s',
 		3		=> 'Отправлено %1$d напоминаний<br />» %2$s',
-	),
+	],
 	'USER_ONLINE'			=> 'В сети',
 	'USER_PRESENCE'			=> 'Присутствие на конференции',
 	'USERS_PER_PAGE'		=> 'Пользователей на странице',
@@ -151,5 +151,5 @@ $lang = array_merge($lang, [
 	'VIEW_FACEBOOK_PROFILE'	=> 'Просмотр профиля Facebook',
 	'VIEW_SKYPE_PROFILE'	=> 'Просмотр профиля Skype',
 	'VIEW_TWITTER_PROFILE'	=> 'Просмотр профиля Twitter',
-	'VIEW_YOUTUBE_CHANNEL'	=> 'Просмотр профиля YouTube',
+	'VIEW_YOUTUBE_PROFILE'	=> 'Просмотр профиля YouTube',
 ]);

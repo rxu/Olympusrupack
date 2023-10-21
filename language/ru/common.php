@@ -172,12 +172,19 @@ $lang = array_merge($lang, [
 	'CHANGE_FONT_SIZE'		=> 'Изменить размер шрифта',
 	'CHANGING_PREFERENCES'	=> 'Изменение личных настроек',
 	'CHANGING_PROFILE'		=> 'Изменение настроек профиля',
-	'CHARACTERS'			=> array(
+	'CHARACTERS'			=> [
 		0	=> '%d символов',
 		1	=> '%d символ',
 		2	=> '%d символа',
 		3	=> '%d символов',
-	),
+	],
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'			=> [
+		0	=> '%d символов',
+		1	=> '%d символ',
+		2	=> '%d символа',
+		3	=> '%d символов',
+	],
 	'COLLAPSE_VIEW'			=> 'Свернуть',
 	'CLOSE_WINDOW'			=> 'Закрыть окно',
 	'CODE'					=> 'Код',

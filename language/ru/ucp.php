@@ -116,7 +116,7 @@ $lang = array_merge($lang, [
 	'BIRTHDAY'					=> 'День рождения',
 	'BIRTHDAY_EXPLAIN'			=> 'Если вы укажете год рождения, ваш возраст будет отображаться на форуме.',
 	'BOARD_DATE_FORMAT'			=> 'Формат даты',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Синтаксис идентичен функции <a href="https://secure.php.net/manual/function.date.php">date()</a> языка PHP.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Синтаксис соответствует используемому в <a href="https://www.php.net/manual/datetime.format.php">функциях форматирования дат</a> языка PHP.',
 	'BOARD_LANGUAGE'			=> 'Язык',
 	'BOARD_STYLE'				=> 'Стиль конференции',
 	'BOARD_TIMEZONE'			=> 'Часовой пояс',

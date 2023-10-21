@@ -1,5 +1,5 @@
 {
     "require-dev": {
-        "phpbb/translation-validator": "1.5.*"
+        "phpbb/translation-validator": "1.6.*"
     }
 }
