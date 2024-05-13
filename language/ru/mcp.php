@@ -261,7 +261,7 @@ $lang = array_merge($lang, [
 	'ONLY_TOPIC'			=> 'Только тема «%s»',
 	'OTHER_USERS'			=> 'Другие пользователи, отправлявшие сообщения с этого IP-адреса',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "Действие %s запрещено в режиме быстрой модерации",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => 'Действие %s запрещено в режиме быстрой модерации',
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Выбранная жалоба на личное сообщение закрыта.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Выбранная жалоба на личное сообщение удалена.',

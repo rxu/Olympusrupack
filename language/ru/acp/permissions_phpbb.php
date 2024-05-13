@@ -158,9 +158,9 @@ $lang = array_merge($lang, [
 	'ACL_M_MERGE'	=> 'Может объединять темы',
 
 	'ACL_M_INFO'		=> 'Может просматривать подробности о сообщениях',
-	'ACL_M_WARN'		=> 'Может объявлять предупреждения<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Может закрывать и удалять жалобы на личные сообщения<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'			=> 'Может управлять блокировкой<br /><em>Это право может быть назначено только глобально, а не на уровне форумов.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> 'Может объявлять предупреждения',
+	'ACL_M_PM_REPORT'	=> 'Может закрывать и удалять жалобы на личные сообщения',
+	'ACL_M_BAN'			=> 'Может управлять блокировкой',
 ]);
 
 // Admin Permissions
