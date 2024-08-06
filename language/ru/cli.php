@@ -107,6 +107,8 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Отправить сообщение email для активации нового пользователя (по умолчанию не отправляется)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Удалить учётную запись.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Имя пользователя для удаления',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Удалить пользователей по ID.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'Список ID пользователей для удаления',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Удалить все сообщения пользователя. Если данная опция не используется, сообщения пользователя не будут удалены.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Восстановить очищенные имена пользователей.',
 
@@ -154,10 +156,14 @@ $lang = array_merge($lang, [
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Миниатюры для создания отсутствуют.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Миниатюры для удаления отсутствуют.',
 
-	'CLI_USER_ADD_SUCCESS'		=> 'Пользователь %s успешно добавлен.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'вы уверены, что хотите удалить «%s»? [y/N]',
-	'CLI_USER_RECLEAN_START'	=> 'Восстановление очищенных имён пользователей',
-	'CLI_USER_RECLEAN_DONE'		=> [
+	'CLI_USER_ADD_SUCCESS'			=> 'Пользователь %s успешно добавлен.',
+	'CLI_USER_DELETE_CONFIRM'		=> 'Вы уверены, что хотите удалить «%s»? [y/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Вы уверены, что хотите удалить пользоваталей с ID ‘%s’? [y/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Удаление пользователей по ID успешно завершено.',
+	'CLI_USER_DELETE_ID_START'		=> 'Удаление пользователей по ID',
+	'CLI_USER_DELETE_NONE'			=> 'Нет пользователей для удаления по ID.',
+	'CLI_USER_RECLEAN_START'		=> 'Восстановление очищенных имён пользователей',
+	'CLI_USER_RECLEAN_DONE'			=> [
 		0	=> 'Восстановление очищенных имён завершено. Нет очищенных имён, требующих восстановления.',
 		1	=> 'Восстановление очищенных имён завершено. Восстановлено %d очищенное имя.',
 		2	=> 'Восстановление очищенных имён завершено. Восстановлено %d очищенных имени.',
