@@ -114,6 +114,7 @@ $lang = array_merge($lang, [
 	'VIEW_INFO'				=> 'Информация о сообщении',
 	'VIEW_NEXT_TOPIC'		=> 'След. тема',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Пред. тема',
+	'VIEW_QUOTED_POST'		=> 'Просмотреть процитированное сообщение',
 	'VIEW_RESULTS'			=> 'Результаты голосования',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d сообщение',
