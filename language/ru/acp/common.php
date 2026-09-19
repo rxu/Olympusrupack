@@ -609,6 +609,7 @@ $lang = array_merge($lang, [
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Изменён тип темы</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Открыта тема</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Разблокировано сообщение</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Не удалось проверить версию</strong>',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Запрещено имя</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Разрешено имя</strong>',

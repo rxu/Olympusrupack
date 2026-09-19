@@ -107,7 +107,7 @@ $lang = array_merge($lang, [
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'Пакет данных OAuth не сохранён.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'Пакет данных OAuth некорректно сохранён.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Закачка была отклонена, так как вложение было определено как возможная атака.',
@@ -354,6 +354,7 @@ $lang = array_merge($lang, [
 		3	=> '%d гостей',
 	),
 	'G_ADMINISTRATORS'			=> 'Администраторы',
+	'G_AI_CRAWLERS'				=> 'ИИ боты',
 	'G_BOTS'					=> 'Боты',
 	'G_GUESTS'					=> 'Гости',
 	'G_REGISTERED'				=> 'Зарегистрированные пользователи',
@@ -536,6 +537,9 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Ожидает одобрения</strong> тема, созданная пользователем %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Тип уведомления «%s» отсутствует в файловой системе.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Ожидает активации</strong> деактивированный или новый пользователь: «%1$s»',
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>Доступна новая версия phpBB: %2$s - критическое обновление</strong>. Конференция использует phpBB версии %1$s; новая версия включает устранение критических уязвимостей и должна быть установлена как можно скорее.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>Доступна новая версия phpBB: %2$s</strong>. Конференция использует phpBB версии %1$s; новая версия доступна.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>Доступна новая версия phpBB: %2$s - обновление безопасности</strong>. Конференция использует phpBB версии %1$s; новая версия включает устранение проблем безопасности. Рекомендуется обновление для обеспечения защищённости конференции.',
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'других',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -888,7 +892,7 @@ $lang = array_merge($lang, [
 		3	=> 'Всего пользователей: <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Отслеженные ошибки PHP: %s',
-	'TWITTER'			=> 'Twitter',
+	'TWITTER'			=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Не удалось определить размеры изображения. Удостоверьтесь, что ссылка на изображение правильная.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Не удалось доставить файл.',

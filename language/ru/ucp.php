@@ -357,6 +357,7 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Ваша жалоба на личное сообщение закрыта модератором',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'В форуме, на который вы подписаны, появились новые темы',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Пользователь, требующий активации',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'Обновление phpBB',
 
 	'NOTIFY_METHOD'					=> 'Способ уведомления',
 	'NOTIFY_METHOD_BOTH'			=> 'Оба способа',
